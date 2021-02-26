@@ -30,7 +30,28 @@
 			{
 				size: 5em;
 			}
-			
+			.gallery
+			{
+				overflow : hidden;
+
+			}
+			.content
+			{
+				overflow:hidden;
+			}
+			.left01
+			{
+				float: left;
+			}
+		
+			.right01
+			{
+				float: right;
+			}
+			li:first-child { border-radius: 10px 0px 0px 10px;}
+			li:last-child{border-radius: 0px 10px 10px 0px;}
+			li:nth-child(2n+1){background-color: black; color: white;}
+			li:nth-child(2n){background-color: white;color:black}
 			
 
 		</style>
@@ -40,11 +61,13 @@
 				<h1 class = "top">Transparent</h1>
 				<nav>
 					<ul>
+						
 						<li class = "top"><a href="#intro">Drag</a></li>
 						<li class = "top"><a href="#one">Is</a></li> 
 						<li class = "top"><a href="#two">All</a></li>
 						<li class = "top"><a href="#work">You</a></li>
 						<li class = "top"><a href="#contact">Need</a></li>
+						<li class = "top"><a href="https://guntiger7.github.io/webHosting/youtube/">건호TV</a></li>
 					</ul>
 				</nav>
 			</header>
@@ -73,7 +96,7 @@
 
 		
 			<section id="two" class="main style2 left dark fullscreen">
-				<div class="content box style2">
+				<div class="content box style2" style="padding-left: 500px;">
 					<header>
 						<h2 class = "up1">Hi</h2>
 					</header>
@@ -84,10 +107,11 @@
 
 		
 			<section id="work" class="main style3 primary">
-				<div class="content ">
+				<div class="content">
 					<header>
-						<h2>주말에 하려고 했는데...</h2>
-						<p>현재시간  일요일 20:33  ;</p>
+					<h2 class="left01">Unity</h2>
+					<h2 class="right01">Unreal Engine</h2>
+						<p></p>
 					</header>
 
 					<!-- Gallery  -->
@@ -111,6 +135,9 @@
 								<a href="images/fulls/06.jpg" class="image fit"><img src="images/thumbs/06.jpg" title="Bent IX" alt="" /></a>
 							</article>
 						</div>
+						<p class="left01">원신</p>
+						
+						<p class="right01">포트나이트</p>
 
 				</div>
 			</section>

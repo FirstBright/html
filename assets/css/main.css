@@ -625,7 +625,8 @@ input, select, textarea {
 		}
 
 		.box.style2 {
-			padding: 0;
+			padding:3.5em 2.5em 3.5em 2.5em;
+			background:transparent;
 		}
 
 		@media screen and (max-width: 736px) {
@@ -635,7 +636,7 @@ input, select, textarea {
 			}
 
 				.box.style2 {
-					padding: 0;
+					padding: 3.5em 2.5em 3.5em 2.5em;
 					background:transparent;
 				}
 
@@ -2075,7 +2076,7 @@ input, select, textarea {
 				}
 
 				.main.dark .button.style2.down {
-					background-image: url("images/dark-arrow.svg");
+					background-image: url("https://lh3.googleusercontent.com/proxy/F4C_JyxxQNOF_V3eJfr3kNNYfEVq03MzSrKoF6dyYtMGI_gDvLFvrsBr0CGTbV49Se-VN9wCgvIAQQwNp3txMnLbBM8ly6lVCf5rq8nQQoMbzI9S0Rb4cDbO5WO63kVXyw6D2hlpEigm-RmhuSdWRJalQ3aJNkSKdqqCcWNWHRM_p-78xo7jPrNN4lI-WnAIBhoKXepvmttlMuIcQUEVuB7wKF0bYGCQgOEFdpvw028TFfmgA0R2hTH0Szg8Oz9EIgG5s6se3mrSlW-FKgNHdVlneFzJ77uKOzSLX2bISao10cs0AVnNakiXEEP-Q8GT7vlM");background-size: 90%;
 				}
 
 		body.is-touch .main {
